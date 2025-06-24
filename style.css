@@ -96,6 +96,11 @@ body {
 
 }
 
+.telefone {
+    text-decoration: none;
+    color: inherit;
+}
+
 .icons a img {
     width: 25px;
     height: 25px;
