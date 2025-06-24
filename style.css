@@ -1,7 +1,7 @@
-
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -10,10 +10,12 @@ body {
     align-items: center;
     background-color: #efeff0;
 }
+
 .card {
-    background-color: #0057b8;   
+    background-color: #013877;
     max-width: 700px;
 }
+
 .top-image {
     width: 100%;
     height: 150px;
@@ -21,6 +23,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .faixa-branca {
     background-color: #ffffff;
     height: 30px;
@@ -30,44 +33,79 @@ body {
 }
 
 .faixa-branca img {
-    max-width: 250px;
+    max-width: 180px;
     height: auto;
     display: inline-block;
 }
+
 .faixa-branca h1 {
     font-family: 'Arial', sans-serif;
     color: #0057b8;
     font-size: 22px;
     margin: 0;
 }
+
 .conteudo {
-    padding: 20px;
+    text-align: center;
+    /* Centraliza todo conteúdo dentro */
+    padding: 15px;
     color: #ffffff;
+    margin-top: 20px;
+
 }
+
 .conteudo h2 {
-    margin-top: 50px;
+    line-height: 1.0;
+    /* Espaçamento 1,5x a altura da fonte */
     font-family: 'Arial', sans-serif;
     color: #ffffff;
+    font-size: 18px;
 }
+
+.nome {
+    background-color: #f19f06;
+    /* Cor de fundo no nome */
+    color: #0c0c0c;
+    /* Cor do texto */
+    padding: 4px 10px;
+    border-radius: 8px;
+    /* Bordas arredondadas, opcional */
+}
+
 .conteudo p {
-    margin: 5px 100;
+    line-height: 1.5;
+    margin: 10px;
     font-family: 'Arial', sans-serif;
 }
+
+.fundo-icon {
+    background-color: #f19f06;
+    /* Cor de fundo */
+    padding: 5px;
+    border-radius: 8px;
+    /* Arredondado opcional */
+    display: inline-block;
+}
+
 .icons {
     margin: 10px 0;
-    display:flex;
+    display: flex;
     gap: 15px;
+    justify-content: flex-start;
+    /* Alinha à esquerda */
 
-    
 }
+
 .icons a img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     transition: transform 0.3s;
 }
+
 .icons a img:hover {
     transform: scale(1.2);
 }
+
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -79,17 +117,21 @@ body {
     transition: background-color 0.3s, color 0.3s;
     font-weight: bold;
 }
+
 .button:hover {
     background-color: #003f86;
     color: #ffffff;
 }
+
 @media (max-width: 480px) {
     .top-image {
         height: 120px;
     }
+
     .faixa-branca h1 {
         font-size: 20px;
     }
+
     .conteudo h2 {
         font-size: 22px;
     }
