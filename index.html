@@ -2,60 +2,98 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartão Digital Claudio Maia</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#063d7a">
+
+  <title>Cartão Digital</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="card">
-        <div class="top-image" style="background-image: url('imagens/fundoaeroporto.jpg');">
-        </div>
-        <div class="faixa-branca">
-            <img src="imagens/polosemfundo.png" alt="Logo Taxi Aeroporto">
-        </div>
+  <main class="pagina">
 
-        <div class="faixa-branca">
-            <img id="foto-veiculo" src="" alt="Veículo do profissional">
-        </div>
+    <article class="card" aria-label="Cartão digital">
 
-        <div class="conteudo">
-            <h2>Táxi Aeroporto Curitiba Oficial</h2>
-            <!--<h2>Executivo</h2>-->
-            <h2><span class="nome">Claudio Maia</span></h2>
-            <div class="icons"><a
-                    href="https://wa.me/5541995029474?text=Ol%C3%A1%20Claudio%2C%20tudo%20bem%3F%0APreciso%20de%20um%20transporte%2C%20voc%C3%AA%20est%C3%A1%20dispon%C3%ADvel%3F"
-                    target="_blank">
-                    <span class="fundo-icon"><img src="imagens/whatsapp.png" alt="WhatsApp"></a>
-                <p><a href="tel:+5541995029474" class="telefone">(41) 99502-9474</a>
-                </p>
-            </div>
+      <div
+        class="top-image"
+        id="foto-capa"
+        role="img"
+      ></div>
 
-            <div class="icons"><a href="mailto:claudiorm3@hotmail.com" target="_blank"><span class="fundo-icon"><img
-                            src="imagens/email.png" alt="Localização"></a></span>
-                <p>claudiorm3@hotmail.com</p>
-            </div>
+      <div class="faixa-branca">
+        <img
+          id="foto-veiculo"
+          src=""
+          alt="Veículo do profissional"
+        >
+      </div>
 
-            <a class="contato" id="link-email">
-                <span class="fundo-icon"><img src="imagens/email.png" alt=""></span>
-                <span id="email"></span>
-            </a>
+      <section class="conteudo">
 
-            <a class="contato" id="link-localizacao" target="_blank" rel="noopener">
-                <span class="fundo-icon"><img src="imagens/location.png" alt=""></span>
-                <span id="localizacao"></span>
-            </a>
-            </nav>
+        <header>
+          <p class="categoria" id="categoria"></p>
 
-            <p class="servicos" id="servicos"></p>
-            <p class="instrucao">Toque em uma opção para entrar em contato</p>
-            </section>
-            </article>
-            </main>
+          <h1 id="titulo"></h1>
 
-            <script src="dados-cliente.js"></script>
-            <script src="app.js"></script>
+          <p class="nome" id="nome"></p>
+        </header>
+
+        <nav class="contatos" aria-label="Formas de contato">
+
+          <a
+            class="contato"
+            id="link-whatsapp"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="fundo-icon">
+              <img src="imagens/whatsapp.png" alt="">
+            </span>
+
+            <span id="telefone"></span>
+          </a>
+
+          <a class="contato" id="link-email">
+            <span class="fundo-icon">
+              <img src="imagens/email.png" alt="">
+            </span>
+
+            <span id="email"></span>
+          </a>
+
+          <a
+            class="contato"
+            id="link-localizacao"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="fundo-icon">
+              <img src="imagens/location.png" alt="">
+            </span>
+
+            <span id="localizacao"></span>
+          </a>
+
+        </nav>
+
+        <p class="servicos" id="servicos"></p>
+
+        <p class="instrucao">
+          Toque em uma opção para entrar em contato
+        </p>
+
+      </section>
+    </article>
+  </main>
+
+  <script src="dados-cliente.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

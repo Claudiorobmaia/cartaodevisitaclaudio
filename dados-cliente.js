@@ -1,6 +1,6 @@
 // EDITE SOMENTE ESTE ARQUIVO PARA CADASTRAR UM NOVO CLIENTE.
 const CLIENTE = {
-  tituloDaPagina: "Cartão Digital Airton",
+  tituloDaPagina: "Cartão Digital Claudio",
   categoria: "Atendimento 24 horas",
   titulo: "Táxi Aeroporto Curitiba Oficial",
   nome: "Claudio Maia",
