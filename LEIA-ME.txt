@@ -1,0 +1,35 @@
+MODELO DE CARTÃO DIGITAL DINÂMICO
+
+COMO CRIAR UM CARTÃO PARA UM NOVO CLIENTE
+
+1. Duplique a pasta inteira "cartao-digital-modelo".
+2. Renomeie a cópia com o nome do cliente.
+3. Abra somente o arquivo "dados-cliente.js" no VS Code.
+4. Troque os dados que ficam entre aspas, sem apagar vírgulas ou aspas.
+5. Substitua as imagens dentro da pasta "imagens".
+   Para não alterar caminhos, mantenha os nomes:
+   - fundoaeroporto.jpg = foto da capa
+   - city.png = carro ou foto principal
+6. Abra index.html no navegador e teste os três botões.
+7. Publique a pasta na Vercel como você já faz normalmente.
+
+IMPORTANTE
+
+- WhatsApp: use 55 + DDD + número, somente números.
+  Exemplo: 5541999999999
+- A mensagem do WhatsApp é convertida automaticamente para um link correto.
+- O telefone visível pode ter espaços, parênteses e traço.
+- Para mudar as cores, altere somente os três códigos dentro de "cores".
+- Para usar outras imagens ou outros nomes, altere os caminhos imagemCapa e
+  imagemVeiculo no arquivo dados-cliente.js.
+
+ARQUIVOS DO MODELO
+
+- dados-cliente.js: único arquivo que você edita para cada cliente.
+- app.js: preenche o cartão automaticamente; não precisa editar.
+- index.html: estrutura do cartão; não precisa editar.
+- style.css: aparência responsiva; não precisa editar.
+- imagens: fotos e ícones.
+
+No celular, o cartão ocupa toda a tela e não deixa a grande área branca do
+modelo antigo. No computador, aparece centralizado como um cartão.
