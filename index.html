@@ -1,93 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, viewport-fit=cover"
-  >
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#063d7a">
-
   <title>Cartão Digital</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <main class="pagina">
-
     <article class="card" aria-label="Cartão digital">
-
-      <div
-        class="top-image"
-        id="foto-capa"
-        role="img"
-      ></div>
+      <div class="top-image" id="foto-capa" role="img"></div>
 
       <div class="faixa-branca">
-        <img
-          id="foto-veiculo"
-          src=""
-          alt="Veículo do profissional"
-        >
+        <img id="foto-veiculo" src="" alt="Veículo do profissional">
       </div>
 
       <section class="conteudo">
-
         <header>
           <p class="categoria" id="categoria"></p>
-
           <h1 id="titulo"></h1>
-
           <p class="nome" id="nome"></p>
         </header>
 
         <nav class="contatos" aria-label="Formas de contato">
-
-          <a
-            class="contato"
-            id="link-whatsapp"
-            target="_blank"
-            rel="noopener"
-          >
-            <span class="fundo-icon">
-              <img src="imagens/whatsapp.png" alt="">
-            </span>
-
+          <a class="contato" id="link-whatsapp" target="_blank" rel="noopener">
+            <span class="fundo-icon"><img src="imagens/whatsapp.png" alt=""></span>
             <span id="telefone"></span>
           </a>
 
           <a class="contato" id="link-email">
-            <span class="fundo-icon">
-              <img src="imagens/email.png" alt="">
-            </span>
-
+            <span class="fundo-icon"><img src="imagens/email.png" alt=""></span>
             <span id="email"></span>
           </a>
 
-          <a
-            class="contato"
-            id="link-localizacao"
-            target="_blank"
-            rel="noopener"
-          >
-            <span class="fundo-icon">
-              <img src="imagens/location.png" alt="">
-            </span>
-
+          <a class="contato" id="link-localizacao" target="_blank" rel="noopener">
+            <span class="fundo-icon"><img src="imagens/location.png" alt=""></span>
             <span id="localizacao"></span>
           </a>
-
         </nav>
 
         <p class="servicos" id="servicos"></p>
-
-        <p class="instrucao">
-          Toque em uma opção para entrar em contato
-        </p>
-
+        <p class="instrucao">Toque em uma opção para entrar em contato</p>
       </section>
     </article>
   </main>
@@ -95,5 +49,4 @@
   <script src="dados-cliente.js"></script>
   <script src="app.js"></script>
 </body>
-
 </html>

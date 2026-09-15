@@ -125,7 +125,7 @@ h1 {
   height: 42px;
   display: grid;
   place-items: center;
-  border-radius: 11px;
+  border-radius: 100px;
   background: var(--cor-destaque);
 }
 
